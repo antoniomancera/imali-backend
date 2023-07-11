@@ -19,4 +19,10 @@ public class Payment {
 
     @Column(name = "amount")
     private Integer amount;
+
+    @Column(name = "cathegory")
+    private String cathegory;
+
+    @Column(name = "store")
+    private String store;
 }
